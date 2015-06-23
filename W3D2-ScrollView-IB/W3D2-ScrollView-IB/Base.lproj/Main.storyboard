@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14C109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KGC-ND-pGU">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <subviews>
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_6188" translatesAutoresizingMaskIntoConstraints="NO" id="UFq-Ha-o4u">
+                                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                    </imageView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="UFq-Ha-o4u" firstAttribute="centerY" secondItem="KGC-ND-pGU" secondAttribute="centerY" id="CvF-RK-Rhy"/>
+                                    <constraint firstItem="UFq-Ha-o4u" firstAttribute="leading" secondItem="KGC-ND-pGU" secondAttribute="leading" id="blE-AM-RIb"/>
+                                    <constraint firstItem="UFq-Ha-o4u" firstAttribute="top" secondItem="KGC-ND-pGU" secondAttribute="top" id="kYk-ul-UOk"/>
+                                    <constraint firstAttribute="bottom" secondItem="UFq-Ha-o4u" secondAttribute="bottom" id="obG-Fh-VSL"/>
+                                    <constraint firstAttribute="trailing" secondItem="UFq-Ha-o4u" secondAttribute="trailing" id="vlY-q8-iZF"/>
+                                    <constraint firstItem="UFq-Ha-o4u" firstAttribute="centerX" secondItem="KGC-ND-pGU" secondAttribute="centerX" id="yON-dd-HtT"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KGC-ND-pGU" firstAttribute="bottom" secondItem="2fi-mo-0CV" secondAttribute="top" id="SUO-g6-tZm"/>
+                            <constraint firstAttribute="trailing" secondItem="KGC-ND-pGU" secondAttribute="trailing" id="Sr2-65-TZh"/>
+                            <constraint firstItem="KGC-ND-pGU" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" id="bj4-mB-dB3"/>
+                            <constraint firstItem="KGC-ND-pGU" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="zkq-cS-MZY"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="myImageView" destination="UFq-Ha-o4u" id="aEf-VA-r85"/>
+                        <outlet property="myScrollView" destination="KGC-ND-pGU" id="v72-mr-hyF"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="IMG_6188" width="2448" height="3264"/>
+    </resources>
+</document>
