@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9E82AD13-6CA8-4474-9859-77016321F41A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>W3D2-ScrollView-IB</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>C81F74E929E5C7B6A422DE97B71A3D9634D2CB78</key>
+		<string>https://github.com/timmitra/W3D2-ScrollViews.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>W3D2-ScrollView-IB/W3D2-ScrollView-IB.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>C81F74E929E5C7B6A422DE97B71A3D9634D2CB78</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/timmitra/W3D2-ScrollViews.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>C81F74E929E5C7B6A422DE97B71A3D9634D2CB78</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>C81F74E929E5C7B6A422DE97B71A3D9634D2CB78</string>
+			<key>IDESourceControlWCCName</key>
+			<string>W3D2-UIScrollView</string>
+		</dict>
+	</array>
+</dict>
+</plist>
